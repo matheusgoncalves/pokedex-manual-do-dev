@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
 
+/* Geral */
 * {
     margin: 0;
     padding: 0;
@@ -13,6 +14,7 @@ body {
     min-height: 100vh;
 }
 
+/* Pokédex */
 main {
     display: inline-block;
     margin-top: 2%;
@@ -25,6 +27,7 @@ main {
     max-width:425px;
 }
 
+/* Dados do Pokémon */
 .pokemon__img {
     position: absolute;
     bottom: 55%;
@@ -47,6 +50,7 @@ main {
     text-transform: capitalize;
 }
 
+/* Formulário de pesquisa */
 .form {
     position: absolute;
     width: 66%;
@@ -66,6 +70,7 @@ main {
     box-shadow: -3px 3px 0px #777, -5px 6px 0 #333;
 }
 
+/* Botões */
 .buttons {
     position: absolute;
     bottom: 10%;
